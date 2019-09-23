@@ -1,0 +1,82 @@
+.line {
+  fill: none;
+  stroke: rgb(121, 171, 211);
+  stroke-width: 2px;
+}
+
+body {
+  background: white !important;
+}
+#chart {
+  background: #0b3d55;
+  color: #bdc3ca;
+  margin: 8px;
+}
+#chart1 {
+  background: #0b3d55;
+  color: #c1c9d3;
+  padding: 2px;
+  margin: 8px;
+  height: 50px;
+
+}
+.button{
+  float: right;
+  color: #c1c9d3!important;
+}
+
+.jumbotron{
+  /* background: #0b3d55!important; */
+  color: #c1c9d3;
+  background-image: url("images/stock.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.navbarstyle{
+  color:#c1c9d3!important;
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+/*#Home {background-color: red;}/*
+/*#News {background-color: green;}/*
+/*#Predictions {background-color: blue;}/*
+/*#About {background-color: orange;}/*
